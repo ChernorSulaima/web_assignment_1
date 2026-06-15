@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal page of Chernor Sulaiman Jalloh — Software Engineering with Multimedia student at Limkokwing University.">
+  <meta name="author" content="Chernor Sulaiman Jalloh">
+  <title>About Me — Chernor Sulaiman Jalloh</title>
+  <base href="./" target="_self">
+  <link rel="stylesheet" href="styles.css" title="Main theme">
+  <style>
+    body { font-family: Georgia, serif; max-width: 720px; margin: 2rem auto; line-height: 1.6; color: #222; }
+    header { border-bottom: 2px solid #333; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+    nav a { margin-right: 1rem; }
+    section { margin-bottom: 2rem; }
+    figure { margin: 1rem 0; text-align: center; }
+    figcaption { font-size: 0.9rem; color: #555; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    th { background: #f0f0f0; }
+    aside { background: #f9f9f9; padding: 1rem; border-left: 4px solid #666; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ccc; font-size: 0.85rem; }
+    mark { background: #ffeb3b; }
+    .highlight { color: #1565c0; }
+    .like { color: #2e7d32; }
+    .dislike { color: #c62828; }
+  </style>
+</head>
+<body id="top">
+
+  <header role="banner">
+    <h1 title="My full name">Chernor Sulaiman Jalloh</h1>
+    <p>
+      <strong>Software Engineering with Multimedia</strong> ·
+      <em>Semester 4</em> ·
+      <abbr title="Limkokwing University">LKU</abbr>
+    </p>
+    <nav aria-label="Main navigation">
+      <a href="#about" accesskey="a">About</a>
+      <a href="#hobbies" accesskey="h">Hobbies</a>
+      <a href="#likes" accesskey="l">Likes</a>
+      <a href="#dislikes" accesskey="d">Dislikes</a>
+      <a href="#study" accesskey="s">Study Life</a>
+      <a href="#contact" accesskey="c">Contact</a>
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        Hey! I'm <span class="highlight">Chernor Sulaiman Jalloh</span>, a Semester 4 student at
+        <strong>Limkokwing University</strong> studying
+        <dfn title="Building software and creating digital media">Software Engineering with Multimedia</dfn>.
+        I spend half my time writing code and the other half pretending I understand what I just wrote.
+      </p>
+      <p>
+        My classmates describe me as the guy who shows up with headphones, a laptop full of tabs, and
+        <q cite="https://limkokwing.net">unshakeable optimism that the assignment is almost done</q>.
+      </p>
+      <blockquote cite="https://example.com/quotes" lang="en">
+        <p>Code is like humor. When you have to explain it, it's bad.</p>
+        <footer>— <cite>Cory House</cite> (I feel attacked every semester)</footer>
+      </blockquote>
+
+      <figure>
+        <img
+          src="https://via.placeholder.com/320x180?text=Chernor+Jalloh"
+          alt="Placeholder profile photo of Chernor Sulaiman Jalloh"
+          width="320"
+          height="180"
+          loading="lazy"
+          decoding="async"
+        >
+        <figcaption>Me, probably after a 3-hour debugging session</figcaption>
+      </figure>
+
+      <aside aria-label="Fun fact">
+        <p><small>Fun fact:</small> I once fixed a bug by turning my laptop off and on again. It worked. I told nobody.</p>
+      </aside>
+    </section>
+
+    <section id="hobbies" aria-labelledby="hobbies-heading">
+      <h2 id="hobbies-heading">Hobbies</h2>
+      <p>Things I do when I'm not drowning in assignments (unordered list):</p>
+
+      <ul type="disc" style="list-style-type: square;">
+        <li value="1"><strong>Late-night anime binges</strong> — "just one episode" is a lie I tell myself</li>
+        <li>Playing FIFA and blaming lag when I lose</li>
+        <li>Collecting sneakers I am too scared to wear in the rain</li>
+        <li>Making memes about <code>NullPointerException</code> and group projects</li>
+        <li>
+          Random creative stuff
+          <ul type="circle">
+            <li>Editing short videos on my phone</li>
+            <li>Trying to learn guitar chords (currently know two)</li>
+            <li>Photographing sunsets like every other student on campus</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p>Weekend mood board (no bullets):</p>
+      <ul style="list-style-type: none; padding-left: 0;">
+        <li>🎮 Mobile games I'll delete and re-download tomorrow</li>
+        <li>🍜 Hunting for the best roadside food near campus</li>
+        <li>🎧 Afrobeats playlists while pretending to study</li>
+        <li>📱 Scrolling reels until my thumb files a complaint</li>
+      </ul>
+    </section>
+
+    <section id="likes" aria-labelledby="likes-heading">
+      <h2 id="likes-heading">Things I Like</h2>
+      <p>Random things that genuinely make my day better:</p>
+
+      <ol type="1" start="1">
+        <li value="1"><span class="like">Jollof rice</span> — yes, I have opinions, and yes, I'm right</li>
+        <li>When my code compiles on the <em>first try</em> (rare, sacred moment)</li>
+        <li>Strong campus Wi-Fi during deadline week</li>
+        <li>Group mates who actually reply in the WhatsApp group</li>
+        <li>Free events on campus that include free food</li>
+        <li>Dark mode everything — my eyes have seen enough white screens</li>
+        <li>Movie nights where nobody picks a film for 45 minutes but we still have fun</li>
+      </ol>
+
+      <p>Top 3 small joys (<code>type="I"</code> — Roman numerals):</p>
+      <ol type="I">
+        <li>A fully charged power bank before a long lecture</li>
+        <li>Finding a seat near the AC</li>
+        <li>Submitting an assignment with 2 minutes left on the clock</li>
+      </ol>
+    </section>
+
+    <section id="dislikes" aria-labelledby="dislikes-heading">
+      <h2 id="dislikes-heading">Things I Dislike</h2>
+      <p>Equally random list of things that test my patience:</p>
+
+      <ul type="disc">
+        <li><span class="dislike">8:00 AM lectures</span> — my brain boots up around 10</li>
+        <li>Group projects where one member vanishes like a Wi-Fi signal in a basement</li>
+        <li>Error messages that say <samp>Something went wrong</samp> with zero explanation</li>
+        <li>People who say "just use AI" instead of reading the question</li>
+        <li>Running out of phone battery during an important class</li>
+        <li>When someone eats loud chips in a quiet lab</li>
+        <li>Printer jams five minutes before submission</li>
+      </ul>
+
+      <p>My personal frustration ranking (<code>reversed</code> — worst first):</p>
+      <ol reversed start="5">
+        <li>Deadline day with no sleep and broken code</li>
+        <li>Slow internet when uploading a project</li>
+        <li>Realizing the typo was on line 1 the whole time</li>
+        <li>Empty cafeteria when I'm actually hungry</li>
+        <li>Mondays. Just Mondays.</li>
+      </ol>
+    </section>
+
+    <section id="study" aria-labelledby="study-heading">
+      <h2 id="study-heading">Study Life at Limkokwing</h2>
+      <p>My semester journey so far (ordered timeline):</p>
+
+      <ol type="1">
+        <li>Semester 1 — Learned what a variable is. Felt like a genius.</li>
+        <li>Semester 2 — Discovered variables can break. Humility unlocked.</li>
+        <li>Semester 3 — Multimedia projects, late nights, too much coffee.</li>
+        <li>Semester 4 — Currently here. Still learning. Still surviving.</li>
+      </ol>
+
+      <h3 id="exp-heading">Quick Facts</h3>
+      <table border="1" cellpadding="8" cellspacing="0" summary="Chernor's student profile">
+        <caption>At-a-glance profile</caption>
+        <colgroup>
+          <col span="1" style="background: #fafafa;">
+          <col span="1">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Category</th>
+            <th scope="col">Detail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Full Name</th>
+            <td>Chernor Sulaiman Jalloh</td>
+          </tr>
+          <tr>
+            <th scope="row">University</th>
+            <td>Limkokwing University</td>
+          </tr>
+          <tr>
+            <th scope="row">Programme</th>
+            <td>Software Engineering with Multimedia</td>
+          </tr>
+          <tr>
+            <th scope="row">Current Semester</th>
+            <td>Semester 4</td>
+          </tr>
+          <tr>
+            <th scope="row">Favourite Module Vibe</th>
+            <td>Anything with a working demo at the end</td>
+          </tr>
+          <tr>
+            <th scope="row">Survival Kit</th>
+            <td>Laptop, earphones, snacks, and prayers</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2"><em>Last updated: <time datetime="2026-06-15">June 15, 2026</time></em></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <h3 id="def-heading">How I'd Describe Myself</h3>
+      <dl>
+        <dt>Student mode</dt>
+        <dd>Focused-ish. Caffeinated. Always one tab away from Stack Overflow.</dd>
+        <dt>Social mode</dt>
+        <dd>Loud laugh, bad jokes, loyal friend, will share my charger.</dd>
+        <dt>Future goal</dt>
+        <dd>Build cool software, create sharp multimedia, and land a job where Monday feels okay.</dd>
+      </dl>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p>Want to talk code, collaborate, or debate jollof? Drop a message:</p>
+
+      <form action="/contact" method="post" enctype="application/x-www-form-urlencoded" novalidate>
+        <fieldset>
+          <legend>Contact Chernor</legend>
+
+          <p>
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Who are you?" required maxlength="100" autocomplete="name">
+          </p>
+
+          <p>
+            <label for="email">Your email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+          </p>
+
+          <p>
+            <label for="topic">What's this about?</label><br>
+            <select id="topic" name="topic" multiple size="3">
+              <optgroup label="Study">
+                <option value="hello" selected>Just saying hi</option>
+                <option value="project">Group project idea</option>
+              </optgroup>
+              <optgroup label="Fun">
+                <option value="fifa">FIFA challenge</option>
+                <option value="food">Food recommendation</option>
+              </optgroup>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" placeholder="Type your message here…" minlength="10"></textarea>
+          </p>
+
+          <p>
+            <label>
+              <input type="checkbox" name="memes" value="yes" checked>
+              I'm okay with receiving memes in reply
+            </label>
+          </p>
+
+          <p>Best way to reach me:</p>
+          <p>
+            <label><input type="radio" name="method" value="whatsapp" checked> WhatsApp</label>
+            <label><input type="radio" name="method" value="email"> Email</label>
+          </p>
+
+          <p>
+            <button type="submit">Send message</button>
+            <button type="reset">Clear form</button>
+          </p>
+        </fieldset>
+      </form>
+
+      <p>
+        Or email me at:
+        <a href="mailto:chernor.jalloh@student.limkokwing.net" rel="noopener">chernor.jalloh@student.limkokwing.net</a>
+        <small>(placeholder — swap for your real address)</small>
+      </p>
+    </section>
+
+    <section id="misc" aria-labelledby="misc-heading">
+      <h2 id="misc-heading">Campus Life Extras</h2>
+
+      <p>
+        Keyboard shortcuts I live by: <kbd>Ctrl</kbd> + <kbd>S</kbd> every 30 seconds.
+        Terminal mood: <samp>Build failed. 1 error, 99 warnings, 0 sleep.</samp>
+      </p>
+
+      <p>
+        Semester 4 progress (optimistic estimate):
+        <meter value="0.65" min="0" max="1" low="0.3" high="0.8" optimum="1">65%</meter>
+      </p>
+
+      <p>
+        Assignments submitted on time:
+        <progress value="11" max="16">11 of 16</progress>
+      </p>
+
+      <p>
+        Current status: <mark>Still enrolled. Still smiling. Mostly.</mark>
+      </p>
+
+      <p>
+        Old plan: <del datetime="2026-01-10">Wake up at 6 AM every day</del><br>
+        New plan: <ins datetime="2026-02-01">Survive Semester 4 with dignity (optional)</ins>
+      </p>
+
+      <details open>
+        <summary>Hidden talents nobody asked for</summary>
+        <ul>
+          <li>Can find a charging port in any room within 10 seconds</li>
+          <li>Professional-level procrastination, amateur-level recovery</li>
+          <li>Quoting movie lines instead of answering serious questions</li>
+        </ul>
+      </details>
+
+      <!-- Personal page for Chernor Sulaiman Jalloh, Limkokwing University -->
+
+      <template id="card-template">
+        <article class="card">
+          <h3>Future portfolio card</h3>
+          <p>One day this will hold my best software and multimedia projects.</p>
+        </article>
+      </template>
+    </section>
+
+  </main>
+
+  <hr width="100%" size="1" noshade>
+
+  <footer role="contentinfo">
+    <p>
+      &copy; 2026 Chernor Sulaiman Jalloh. All rights reserved.
+      <a href="#top">Back to top</a>
+    </p>
+    <address>
+      Written by <a href="mailto:chernor.jalloh@student.limkokwing.net">Chernor Sulaiman Jalloh</a>.<br>
+      Limkokwing University — Software Engineering with Multimedia, Semester 4
+    </address>
+  </footer>
+
+  <noscript>
+    <p>This page works fine without JavaScript. Chernor coded it old-school on purpose.</p>
+  </noscript>
+
+  <script>
+    console.log('Chernor\'s about page loaded. Semester 4 lets go!');
+  </script>
+
+</body>
+</html>
